@@ -1,40 +1,43 @@
-# AWS: Static Website Hosting
+🌐 AWS Static Website Hosting
+🧰 Tech Stack
+<p align="left"> <img src="https://img.shields.io/badge/AWS%20S3-%23FF9900.svg?style=for-the-badge&logo=amazon-s3&logoColor=white" alt="AWS S3"/> <img src="https://img.shields.io/badge/AWS%20CloudFront-%23232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS CloudFront"/> <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/> <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/> </p>
+📖 Overview
 
-[![AWS](https://img.shields.io/badge/AWS-Cloud-orange)](https://aws.amazon.com/)
-[![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+This project demonstrates how I deployed a static website on Amazon S3, integrated it with AWS CloudFront, and configured secure global delivery. The site serves as a proof of concept for my ability to host and manage front-end web content in the cloud.
 
----
+🛠️ What I Built
 
-## Project Overview
-This is a **static website** that I built, hosted on **Amazon S3**, and delivered via **AWS CloudFront**.
-The project demonstrates my ability to deploy a website using AWS services and manage basic cloud hosting configurations.
+I designed a clean, responsive landing page using HTML5 and CSS3, featuring my name and a minimal layout focused on clarity and accessibility.
 
----
+The project involved:
 
-## Technologies Used
-- **AWS S3** — static website hosting
-- **AWS CloudFront** — content delivery network for global access
-- **HTML & CSS** — front-end design
+Setting up an S3 bucket for static website hosting
 
----
+Uploading files (index.html and styles.css)
 
-## What I Did
-- Created an S3 bucket and uploaded the website files (`index.html` and `styles.css`).
-- Enabled **static website hosting** on the bucket.
-- Configured the **bucket policy** to allow CloudFront access.
-- Set up a **CloudFront distribution**:
-- Origin pointing to the S3 bucket
-- Default root object: `index.html`
-- Viewer protocol policy: HTTP → HTTPS
-- Tested both the S3 website endpoint and CloudFront URL to confirm the site loads correctly.
+Enabling public access policies to allow CloudFront distribution
 
----
+Creating a CloudFront distribution with:
 
-## Result
-The website is live and accessible globally via CloudFront:
-https://dava-static-website.s3.us-east-1.amazonaws.com/index.html
+Origin: S3 bucket
 
-It displays a clean landing page with my name, showing my ability to deploy a static website using AWS.
+Default root object: index.html
 
+Viewer protocol policy: HTTP → HTTPS
+
+Testing endpoints to ensure global access and secure delivery
+
+🚀 Result
+
+The website is live and globally distributed via CloudFront:
+🔗 View Live Site
+
+This project highlights my ability to:
+✅ Configure and deploy a static site on AWS S3
+✅ Optimize performance and security with CloudFront
+✅ Implement a modern, cloud-based hosting workflow
+
+💡 Takeaways
+
+This was a hands-on way to learn AWS hosting fundamentals—covering permissions, routing, and CDN configuration. It also reinforced the importance of secure connections (HTTPS) and the simplicity of static deployments for lightweight projects.
 
