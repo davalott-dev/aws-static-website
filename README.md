@@ -35,10 +35,6 @@ The deployment process included:
 The website is live and globally distributed via CloudFront:  
 🔗 [View Live Site](http://dava-static-website.s3-website-us-east-1.amazonaws.com)
 
-<p align="center">
-  <img src="assets/website-preview.png" alt="AWS Static Website Screenshot" width="80%">
-</p>
-
 This project demonstrates my ability to:  
 ✅ Configure and deploy a static site on **AWS S3**  
 ✅ Integrate **CloudFront** for optimized performance and security  
