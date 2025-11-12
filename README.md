@@ -1,6 +1,8 @@
 🌐 AWS Static Website Hosting
+
 🧰 Tech Stack
 <p align="left"> <img src="https://img.shields.io/badge/AWS%20S3-%23FF9900.svg?style=for-the-badge&logo=amazon-s3&logoColor=white" alt="AWS S3"/> <img src="https://img.shields.io/badge/AWS%20CloudFront-%23232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS CloudFront"/> <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/> <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/> </p>
+
 📖 Overview
 
 This project demonstrates how I deployed a static website on Amazon S3, integrated it with AWS CloudFront, and configured secure global delivery. The site serves as a proof of concept for my ability to host and manage front-end web content in the cloud.
@@ -30,7 +32,8 @@ Testing endpoints to ensure global access and secure delivery
 🚀 Result
 
 The website is live and globally distributed via CloudFront:
-🔗 View Live Site
+🔗 [View Live Site](http://dava-static-website.s3-website-us-east-1.amazonaws.com)
+
 
 This project highlights my ability to:
 ✅ Configure and deploy a static site on AWS S3
